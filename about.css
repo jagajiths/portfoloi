@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+
+body {
+  background-color: #0f0f0f;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+.about-container {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.intro {
+  font-size: 18px;
+  color: #cccccc;
+}
+
+h2 {
+  margin-top: 40px;
+  margin-bottom: 15px;
+  font-size: 28px;
+}
+
+.item {
+  margin-bottom: 25px;
+}
+
+.item h3 {
+  font-size: 20px;
+}
+
+.date {
+  font-size: 14px;
+  color: #aaaaaa;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 12px;
+}
+
+.skills {
+  color: #cccccc;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #333;
+  margin: 40px 0;
+}
+.hero{
+    display:flex ;
+    align-items: center;
+    justify-content: flex-end;
+}
+.nav a{
+    text-decoration: none;
+    margin-right: 40px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.nav a:hover{
+    font-size:20px;
+    transition: 0.2s;
+}

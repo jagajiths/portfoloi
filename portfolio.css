@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: black;
+}
+.hero{
+    display:flex ;
+    align-items: center;
+    justify-content: flex-end;
+}
+.nav a{
+    text-decoration: none;
+    margin-right: 40px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.nav a:hover{
+    font-size:20px;
+    transition: 0.2s;
+}
+.tag{
+    margin-left: 80px;
+    margin-top: 200px;
+}
+.intro{
+    margin-bottom:50px ;
+    font-size: 50px;
+}
+
